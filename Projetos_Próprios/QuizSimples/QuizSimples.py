@@ -1,7 +1,6 @@
 '''
 Meu Primeiro Projeto
 'Quiz'
-100% Python
 Testar minhas habilidades de lógica de programação
 '''
 print('-'*30)

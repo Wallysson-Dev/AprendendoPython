@@ -33,7 +33,7 @@ while True:
         print("Digite operadores válidos")
         continue
 
-    if len(operadores) > 1:
+    elif len(operadores) > 1:
         print("Digite apenas um operador")
         continue
 
@@ -52,7 +52,7 @@ while True:
             f"A multiplicação do {numero_1} * {numero_2} = {num_1_float * num_2_float}"
         )
 
-    if (
+    elif (
         operadores == "/" and num_2_float == 0
     ):  # Aqui eu quebrei um pouco a cabeça, explicação no final do código
         print("O número zero, não pode ser dividido")

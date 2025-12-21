@@ -47,6 +47,6 @@ while True:
     print (palavra_mostrada)
     
     if palavra_mostrada == palavra_secreta:
-        os.system('clear')
+        os.system('cls')
         print(f'Você venceu! Tentativas: {tentativas}')
         break

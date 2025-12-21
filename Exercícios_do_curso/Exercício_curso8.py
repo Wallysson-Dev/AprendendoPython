@@ -13,4 +13,4 @@ for nome in lista:
     print (i, nome)
     i += 1
 
-# Facin, essa foi pra saber se tava vivo
+# Exercício básico para entender melhor for/in e list
