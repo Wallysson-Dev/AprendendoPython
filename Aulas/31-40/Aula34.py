@@ -49,7 +49,7 @@ Métodos Úteis-
         [10, 20, 40]
 
 del - funciona igual o pop, mas ele não retorna nada
-Não é aceito dentro do print
+    Não é aceito dentro do print
 
 clear - Limpa a lista
     lista = [10,20, 30]
