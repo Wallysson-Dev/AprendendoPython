@@ -51,9 +51,12 @@ def formatacao_cpf():
     return (cpf_pronto)
 
 for _ in range(1):
+    # Calcula o 1º dígito
     cpf_gerado = primeiro_digito()
 
+    # Calcula o 2º dígito
     cpf_gerado = segundo_digito()
 
+    # Mostra o CPF pronto
     cpf_pronto = formatacao_cpf()
     print(cpf_pronto)
